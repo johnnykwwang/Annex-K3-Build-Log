@@ -1,12 +1,11 @@
 # Annex-K3-Build-Log
-A personal build log of Annex K3 printer. 
+A personal build log of the Annex K3 printer. 
 
-## Preface
-This is a personal build log of the [Annex K3](https://github.com/Annex-Engineering/Gasherbrum-K3) printer.  
+## Preface & Disclaimer
+This is a personal build log of the [Annex K3](https://github.com/Annex-Engineering/Gasherbrum-K3) printer.  At the time of this writing, [K3 is at RC1 stage](https://github.com/Annex-Engineering/Gasherbrum-K3/releases/tag/R1RC1).  It is very likely that some components or parts of the build already changed.  
+This should not be considered as a build guide.  Please refer to the e-drawing and the K3 repo for more up-to-date info.
 
-At the time of this writing, [K3 is at RC1 stage](https://github.com/Annex-Engineering/Gasherbrum-K3/releases/tag/R1RC1).  It is very likely that some components or parts of the build already changed.  Therefore, this should not be considered as a build guide.
-
-However, I will try to document every detail during the build.  This means from sourcing, printing parts, component preparation, building, wiring, and so on.  I will also point out any questions & doubts I have during the process.
+However, I will try to document every detail during the build.  From sourcing, printing parts, component preparation, building, wiring, and so on.  I will also point out any modifications I made to the printer.  As all DIY printesr, this machine would likely not going to be a "stock" machine.
 
 ## Table of Content
 
