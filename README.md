@@ -19,7 +19,9 @@ However, I will try to document every detail during the build.  From sourcing, p
 
 ## Background & Why K3?
 
-Knowing ANNEX from the famous Sherpa extruder and the QuickDraw probe, I began to look at ANNEX printers.  I don't have a lot of printer space left and I don't need a monster build volume, so K3 is my choice.  After looking at the K3, on paper I found that it addresses most of the problem I have with V2.4.   More importantly, it is designed with speed and ease of maintenance in mind.
+Why not?
+
+Knowing Annex from the famous Sherpa extruder and the QuickDraw probe, I began to look at ANNEX printers.  After looking at the K3, on paper I found that it addresses most of the problem I have with V2.4.   More importantly, I like the Annex design philisophy: Printer with amazing performance and ease of maintenance.
 
 
 ## Sourcing & Component Selection
