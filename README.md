@@ -16,30 +16,10 @@ However, I will try to document every detail during the build.  This means from 
 4. Frame
 5. (...to be continued)
 
+
 ## Background & Why K3?
 
-### My opinions on the VORON V2.4
-
-Before beginning the K3 build, I've built the VORON [V2.4](https://vorondesign.com/voron2.4) and [V0.1](https://vorondesign.com/voron0.1).  For the most part I really like my V2.4, it's been a great workhorse machine and I enjoyed printing parts with it.  However, there are some designs that I find it painful to work with.
-
-> Note: These are my personal opinion.  There's probably a mod for a lot of things I've mentioned.  If we factor in mods, we'd also have to take care of compatibility between mods and updated revisions.  Therefore the discussion here is mainly on the stock printer design.
-
-1. **Faster Printing**.  I enjoy prototyping and faster iteration always helps.  My VORON v2.4 can barely speed up to 250mm/s with 10K acceleration, without loosing quality.  This is very reasonable as V2.4 is not meant to be a speed printer.  Considering the toolhead & X gantry weight, the belt length, it is pretty hard to push the machine faster.  
-
-2. **Getting rid of cable chains**.  Cable chain has been a PITA during the build and maintainence on my V2.4.  If given the chance I would build it with Umbilical wiring.
- 
-3. **Gantry Squareness & Belting**.  Deracking the V2.4 requires 4 Z on the same height & ideally QGL-ed to the build plate, AND perfectly belting two belts to the same tension.  Most of the CoreXY printer would have this problem.  This doesn't cause a lot of trouble once it's squared and deracked, but it is a painful process to build and it makes me less willing to take down & modify the gantry once it's built.
-
-4. **Easier Electronics Access**.  All VORON printers put the electronics on the bottom of the machine.  It's very painful to flip the machine just to unplug & plug something.
- 
-4. **Official support for the Slice Mosquito hotend**.  This is a highly controversy topic.  But I personally really like the Mosquito hotend (shrug)
-
-(...there's probably some more...)
-
-### ANNEX enters the chat
-
-Knowing ANNEX from the famous Sherpa extruder and QuickDraw probe, I begin to look at ANNEX printers.  I don't have a lot of printer space left and I don't need a monster build volume, so K3 is naturally my top choice.  After looking at the K3, on paper I found that it addresses most of the problem I have.  More importantly, it is designed with speed and ease of maintenance in mind.
-
+Knowing ANNEX from the famous Sherpa extruder and the QuickDraw probe, I began to look at ANNEX printers.  I don't have a lot of printer space left and I don't need a monster build volume, so K3 is my choice.  After looking at the K3, on paper I found that it addresses most of the problem I have with V2.4.   More importantly, it is designed with speed and ease of maintenance in mind.
 
 
 ## Sourcing & Component Selection
@@ -60,33 +40,54 @@ I got a lot of parts kit from [Fabreeko](https://www.fabreeko.com/).  This helps
 | Bearings Kit  | HoneyBadger Chrome Steel Bearings |  |
 | Motion Kit  | Fabreeko's K3 Motion Kit |  |
 
+Below are parts that are not covered by the kits.
+
 ### Structural
 
+I went with all the recommended bracket from Misumi, including the internal L bracket.  
 
-### Motion
+| Component / Item | What I got | Notes |
+| ------------- | ------------- | ------------- |
+| Internal L Bracket - 2020 Extrusion  | HBLPBS5 |  |
+| Misumi Perpendicular Bracket HBKUS5  | HBKUSB5 | Black version of HBKUS5 |
+| Misumi Perpendicular Bracket HBKTST5  | HBKTSB5 | Black version of HBKTST5 |
 
 ### Electronics
-
+> TBD
 
 ### Wiring
+> TBD
 
+Following some popular build on Discord, I decided to order MCPC-X cable sleeve as well.
 
 ### Fasteners
 
+Too much to list.  Basically counting what I have on hand, and ordered the rest on Bolt Depot and McMaster-Carr.
+
 ### Hotend & Extruder
+
+| Component / Item | What I got | Notes |
+| ------------- | ------------- | ------------- |
+| Hotend  | Slice Mosquito Magnum | What I have on hand.   |
+| Hotend Sock | TriangleLabs Socks | |
 
 ### Bed
 
+| Component / Item | What I got | Notes |
+| ------------- | ------------- | ------------- |
+| Build Plate  | 1/2" MIC6 from Midwest | Kirby(ANNEX discord member) groupbuy. |
+| Magnetic Sheet | McMaster-Carr Magnetic Sheet | |
+| Heater Mat | Fabreeko Edge-to-Edge heater 300W | |
+
 ### Panels & Electonics Box
 
+I got the aluminium panels from Nirecue's groupbuy leftovers.  In the build I will document how I paint the bare aluminium panels.
 
-### Miscellaneous Parts
+## Build Process - Planning
 
+There is no official "build guide" for Annex K3.  I will be follow the e-drawing and the [build order provided by ActualVarner#5006](https://discord.com/channels/641407187004030997/852302000834084924/916480019998584843).
 
-
-## Build Process
-
-There is no official "build guide" for Annex K3.  I will be follow the e-drawing and the [build order provided by ActualVarner#5006](https://discord.com/channels/641407187004030997/852302000834084924/916480019998584843):
+> This section will be slowly removed as the build goes on.
 
 > 1. Main frame, starting with the lower cross members (all 8 internal brackets).  Used both blind joints and internal brackets.  Do it on quartz/granite countertop if available. Exclude crossbars and bracing for Z until step 9.
 > 1b. Bed frame assembly constructed in parallel as separate part.
@@ -108,9 +109,13 @@ There is no official "build guide" for Annex K3.  I will be follow the e-drawing
 > 10b. Superglue spacers on to side panels and rear panel.  Attach the top hat plastic parts to the electronics panel with screws early, as the electronics box corners cover those screw heads.
 > 11. Install electronics back panel which is done except for umbilical connections. 
 
-## Sourcing & Component Selection
 
-## Component Preparation
+## Frame Assembly
+### Prep Work
+1. To assemble the frame, I managed to find a 16"x16" quartz countertop piece at a local shop.
+2. I choose to use M5x12 instead of the M5x8(BOM) on blind joints.
+3. Counting the screw number, and apply vibra-tite vc3 on all the screws.
 
-##
+### Tips & Tricks
 
+> Check out [Nero3D's Video on how to build a squared frame](https://www.youtube.com/watch?v=GSg7RDLgYV0)
