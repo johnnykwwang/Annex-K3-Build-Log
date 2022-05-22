@@ -10,14 +10,25 @@ However, I will try to document every detail during the build.  From sourcing, p
 
 ## Table of Content
 
-1. Background & Why K3?
-2. Sourcing & Component Selection
-3. Build Plan
-4. Frame
-5. (...to be continued)
+  * [Background & Why K3](#background--why-k3)
+  * [Sourcing & Component Selection](#sourcing--component-selection)
+    + [Kits](#kits)
+    + [Structural](#structural)
+    + [Electronics](#electronics)
+    + [Wiring](#wiring)
+    + [Fasteners](#fasteners)
+    + [Hotend & Extruder](#hotend--extruder)
+    + [Bed](#bed)
+    + [Panels & Electonics Box](#panels--electonics-box)
+  * [Build Process - Planning](#build-process--planning)
+  * [Frame Assembly](#frame-assembly)
+    + [Prep Work](#prep-work)
+    + [Tips & Tricks](#tips---tricks)
 
 
-## Background & Why K3?
+
+
+## Background & Why K3
 
 Why not?
 
@@ -43,6 +54,12 @@ I got a lot of parts kit from [Fabreeko](https://www.fabreeko.com/).  This helps
 | Motion Kit  | Fabreeko's K3 Motion Kit |  |
 
 Below are parts that are not covered by the kits.
+
+### Printed Parts
+
+I used 3DXTECH ASA Black and Grey to print the parts. 
+
+> TBD:  Put image here
 
 ### Structural
 
@@ -70,8 +87,10 @@ Too much to list.  Basically counting what I have on hand, and ordered the rest 
 
 | Component / Item | What I got | Notes |
 | ------------- | ------------- | ------------- |
-| Hotend  | Slice Mosquito Magnum | What I have on hand.   |
+| Hotend  | Slice Mosquito Magnum | What I have on hand, Supported by the [Mosquito Net](https://github.com/Annex-Engineering/Misc_Designs/tree/master/Mosquito_Net) |
 | Hotend Sock | TriangleLabs Socks | |
+| Thermistor | Slice PT1000 | |
+| Heater Cartridge | TriangleLabs 50W Heater | |
 
 ### Bed
 
@@ -83,13 +102,11 @@ Too much to list.  Basically counting what I have on hand, and ordered the rest 
 
 ### Panels & Electonics Box
 
-I got the aluminium panels from Nirecue's groupbuy leftovers.  In the build I will document how I paint the bare aluminium panels.
+I got the aluminium panels from Nirecue's groupbuy leftovers.  Later in the build I will document how I paint and wrap the bare aluminium panels.
 
 ## Build Process - Planning
 
-There is no official "build guide" for Annex K3.  I will be follow the e-drawing and the [build order provided by ActualVarner#5006](https://discord.com/channels/641407187004030997/852302000834084924/916480019998584843).
-
-> This section will be slowly removed as the build goes on.
+There is no official "build guide" for Annex K3.  I will be follow the e-drawing and the [build order provided by ActualVarner#5006](https://discord.com/channels/641407187004030997/852302000834084924/916480019998584843).  This section will be slowly removed as the build goes on.
 
 > 1. Main frame, starting with the lower cross members (all 8 internal brackets).  Used both blind joints and internal brackets.  Do it on quartz/granite countertop if available. Exclude crossbars and bracing for Z until step 9.
 > 1b. Bed frame assembly constructed in parallel as separate part.
@@ -116,7 +133,9 @@ There is no official "build guide" for Annex K3.  I will be follow the e-drawing
 ### Prep Work
 1. To assemble the frame, I managed to find a 16"x16" quartz countertop piece at a local shop.
 2. I choose to use M5x12 instead of the M5x8(BOM) on blind joints.
-3. Counting the screw number, and apply vibra-tite vc3 on all the screws.
+3. Counting the screw number, and pre-apply VC3 [1] on all the screws. Following the wisdom from the Annex discord, I will apply VC3 to all the screws in the printer. 
+
+> [1]: Vibra-tite VC3 requires pre-applying and waiting for it to dry.  [See product page](https://www.vibra-tite.com/threadlockers/removable-reusable-threadlockers/vibra-tite-vc-3-threadmate/) 
 
 ### Tips & Tricks
 
