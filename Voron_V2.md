@@ -2,7 +2,7 @@
 
 Ah...where do I begin?
 
-At the time of this writing, I have already built the VORON V2.4 printer.  However, there are several issues that I face.  As my main printer, these problems really  bothers me so much that I am building an Annex K3 printer.
+At the time of this writing, I have already built the VORON V2.4 printer.  However, there are several issues that I face.  As my main printer, these problems really  bothers me so much that I am [building an Annex K3 printer](Annex_K3.md) now.
 
 ## Problems
 
@@ -14,4 +14,4 @@ At the time of this writing, I have already built the VORON V2.4 printer.  Howev
 
 4. **Electronics Access**.  All VORON printers put the electronics on the bottom of the machine.  It's very painful to flip the machine just to unplug & plug something.
  
-4. **Official support for the Slice Mosquito hotend**.  This is a highly controversy topic.  But I personally really like the Mosquito hotend (shrug)
+5. **Official support for the Slice Mosquito hotend**.  This is a highly controversy topic.  But I personally really like the Mosquito hotend (shrug)
