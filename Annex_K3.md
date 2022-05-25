@@ -79,6 +79,7 @@ Too much to list.  Basically counting what I have on hand, and ordered the rest 
 | Component / Item | What I got | Notes |
 | ------------- | ------------- | ------------- |
 | Hotend  | Slice Mosquito Magnum | What I have on hand, Supported by the [Mosquito Net](https://github.com/Annex-Engineering/Misc_Designs/tree/master/Mosquito_Net) |
+| Nozzle | BondTech CHT 0.4/0.6mm | For that extra speed |
 | Hotend Sock | TriangleLabs Socks | |
 | Thermistor | Slice PT1000 | |
 | Heater Cartridge | TriangleLabs 50W Heater | |
