@@ -45,8 +45,13 @@ At this step we're only assembling the main frame, excluding the crossbar and re
         <img width="500" src="https://user-images.githubusercontent.com/13166286/171062995-e2ace67e-47ca-44d4-a8fa-c59ec5d4d234.png">
      </td>
   </tr>
+  <tr>     
+     <td> Remeber to tighten the grub screw for the internal bracket.  I also applied VC3 on them.  </td>
+     <td>
+        <img width="500" src="https://user-images.githubusercontent.com/13166286/171063935-82bd9039-7832-4c57-adcd-24138d056fcb.png)">
+     </td>
+  </tr>
 </table>
-
 
 
 ### Useful Information
