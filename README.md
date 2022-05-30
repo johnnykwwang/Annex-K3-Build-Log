@@ -6,7 +6,7 @@ This is a personal build log of the [Annex K3](https://github.com/Annex-Engineer
 
 **This should not be considered as a build guide.  Please refer to the e-drawing and the K3 repo for more up-to-date info.**
 
-I will try to document every detail during the build.  From sourcing, printing parts, component preparation, building, wiring, and so on.  I will also point out any modifications I made to the printer.  As all DIY printesr, this machine would likely not going to be a "stock" machine.
+I will try to document more details during the build.  From sourcing, printing parts, component preparation, building, wiring, and so on.  I will also point out any modifications I made to the printer.  As all DIY printesr, this machine would likely not going to be a "stock" machine.
 
 If there's any feedback, feel free to find me at the Annex Discord, or ping jkwang#7099.
 
