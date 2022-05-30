@@ -14,10 +14,10 @@ If there's any feedback, feel free to find me at the Annex Discord, or ping jkwa
 
 Why not?
 
-Knowing Annex from the Sherpa extruder and the QuickDraw probe, I began to look at ANNEX printers.  After looking at the K3, on paper I found that it addresses most of the problem I have with the VORON V2.4.   More importantly, I like the Annex design philisophy: Printer with amazing performance and ease of maintenance.
+Looking at the K3,  I found that the design addressed most of the problems I have with the VORON V2.4.   More importantly, I really like the Annex design philisophy: Printer with amazing performance and ease of maintenance.
 
 
-## Table of Content
+## Table of Contents
 
   * [Sourcing & Component Selection](1_Sourcing.md)
   * [Build Planning & Parts Preparation](2_Planning.md)
