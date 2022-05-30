@@ -17,7 +17,7 @@ With the 3DXTech ASA, I'm using the following setting to print the parts.
 
 ### Rails & Bearings
 
-I printed the [Bearing Repacker](https://github.com/Annex-Engineering/Misc_Designs/tree/master/Bearing_Repacker).  But after examining the Fabreeko bearings, they are decently lubricated and I don't have to clean and lube them :)  
+I printed the [Bearing Repacker](https://github.com/Annex-Engineering/Misc_Designs/tree/master/Bearing_Repacker).  But after examining the Fabreeko bearings, they are decently lubricated :)  
 
 Fabreeko Rails are also lubed with EP2.  The preload is higher so I run the rails back and forth rapidly to break it in a bit.
 
