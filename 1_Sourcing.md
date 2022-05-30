@@ -21,9 +21,7 @@ Below are parts that are not covered by the kits.
 
 ### Printed Parts
 
-I used 3DXTECH ASA Black and Grey to print the parts. 
-
-> TBD:  Put image here
+I used 3DXTECH ASA Black and Grey for the parts. 
 
 ### Structural
 
@@ -31,7 +29,7 @@ I went with all the recommended bracket from Misumi, including the internal L br
 
 | Component / Item | What I got | Notes |
 | ------------- | ------------- | ------------- |
-| Internal L Bracket - 2020 Extrusion  | HBLPBS5 |  |
+| Internal L Bracket - 2020 Extrusion  | HBLPBS5 | ...this hurts my wallet. |
 | Misumi Perpendicular Bracket HBKUS5  | HBKUSB5 | Black version of HBKUS5 |
 | Misumi Perpendicular Bracket HBKTST5  | HBKTSB5 | Black version of HBKTST5 |
 
@@ -61,10 +59,10 @@ Too much to list.  Basically counting what I have on hand, and ordered the rest 
 
 | Component / Item | What I got | Notes |
 | ------------- | ------------- | ------------- |
-| Build Plate  | 1/2" MIC6 from Midwest | Kirby(ANNEX discord member) groupbuy. |
+| Build Plate  | 1/2" MIC6 from Midwest | Kirby(discord member) groupbuy. |
 | Magnetic Sheet | McMaster-Carr Magnetic Sheet | |
 | Heater Mat | Fabreeko Edge-to-Edge heater 300W | |
 
 ### Panels & Electonics Box
 
-I got the aluminium panels from Nirecue's groupbuy leftovers.  Later in the build I will document how I paint and wrap the bare aluminium panels.
+I got the aluminium panels from Nirecue's groupbuy leftovers.  Later in the build I will document how I paint and/or wrap the bare aluminium panels.
