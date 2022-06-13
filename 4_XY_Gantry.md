@@ -50,6 +50,8 @@ There's a small problem here.  After installing the rails, I find that at each s
 
 Fasteners: 8x `M5x12 BHCS`, 4x `M5x14 SHCS`, 4x `M5x20 SHCS`
 
+> Using M5x14 SHCS is already deprecated in later release, in favor of using M5x16 and printed spacers.  But M5x14 still works.
+
 Now, with the machine still upside-down, we can install the upper 625 bearing holder and endstops.  Keep in mind that from this point on, we need to remember which side is the "front" of the machine.  I recommend make a mark for reference.
 
 Installing the bearing holder is a little bit painful.  There's a few things:
@@ -86,4 +88,68 @@ Common: 4x `M3 square nuts`, 4x `6x3 magnets`, 4x `M3x16 SHCS`
 <p align=center>
 <img src=https://user-images.githubusercontent.com/13166286/172331570-75e9eac2-57d8-4131-91d0-a5634d962b82.png width=300>
 </p>
+
+The gantry parts here is printed with 3DXTECH ezPCCF, thanks to Solar#9135.  Each stack is very easy to assemble:
+
+1. For every cross-rail mount piece, pop in a m3 square nut and fit a 6x3 magnet.  This acts like a flat edge to push against the rail to ensure it's straight(prependicular) with the mount.
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/173295987-c4e29e11-1a3e-4ee3-b685-fe41840a0e56.jpg width=300>
+</p>
+
+2. For every tensioner block, we need to install a **long** m3 heatset insert.  We can easily identify the heatset location, on the bottom two parts rightmost hole:
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/173296586-d45b04db-defb-4d08-8dc9-45168b4b4f1b.jpg width=300>
+</p>
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/173296408-02d46551-3b8b-4d2a-b52a-b4cdf0fb104f.png width=300>
+</p>
+
+3. Before we start to throw stuff on the rail carriage, I did a test fit and make sure all screw lengths are correct, by pre-assembling all the pieces:
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/173295462-c6b69b8f-0a0c-4ff6-b758-97451ab65982.png width=300>
+</p>
+
+4. Now we're ready to install on the rails.  Screw the only screw in tensioner block with the socket head hole.  If it's Y rail, add the Y spacer between tensioner and carriage.
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/173297263-8928e930-4a24-48e8-89de-5258047f2e37.png width=300>
+</p>
+
+> Note: K3 repo recommends to scale 1 layer on the Y spacer.  It is important to measure the actual height of the Y spacer here!
+
+5. Then, install the cross rail mount.  There should be 3 screws that goes through tensioner block (and maybe Y spacer) and into the rail carriage.   The 4th and shorter screw would go into the heatset insert.
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/173297427-a1b08b9c-df96-4f83-81b5-35b8f2b6b0cc.png width=300>
+</p>
+
+6. Take out the cross rails!  It should be the longer rails, and slide them into each cross rail mount.  Tighten the cross rail mount and tighten the 6x3-magnet-pushing-rail screw on each cross rail mount.
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/173297906-4e9424fc-c8f6-49a7-b9f5-500bf6ca4267.png width=300>
+</p>
+
+### Ensure Cross Rails Are Prependicular
+
+The "deracking" in cross-xy is very different from CoreXY.  In my opinion it is also much simpler.   We only need to make sure our cross rails are prependicular to each other.  From the discord, I've found the following recommendations:
+```
+Ensure the cross rails are perpendicular to each other; @Ryan G recommends:
+> - loosen 1 of the 2 rail carts on the toolhead plate
+> - move both axes against the endstops
+> - tighten the rail cart that you loosened earlier.
+> - Ensure fluid motion.
+```
+
+### Test fit with toolhead plate
+
+The Y spacer's height needs to be thicker than toolhead plate's height by an exact number.  Check the [XY Gantry section from K3 repo for more details.](https://github.com/Annex-Engineering/Gasherbrum-K3/tree/main/STLs/XY_Gantry#linear-rail-instructions).  Fortunately, my spacer is perfectly 13.5mm thicker than the toolhead plate.
+
+At this point I screw on the toolhead plate and tested if the gantry movement is fluid:
+
+https://user-images.githubusercontent.com/13166286/173299416-cc5b920d-2def-4bd4-affe-35c217bb9624.mp4
+
 
