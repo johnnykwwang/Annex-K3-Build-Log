@@ -1,7 +1,5 @@
 ## XY Gantry Assembly
 
-> :warning: **This page is WIP**
-
 ### Mounting XY Motors
 
 > I'm using the LDO-42STH48-2004MAH "long bois" motors.  For the motors with couplers, the approach might be different.
