@@ -144,11 +144,11 @@ Ensure the cross rails are perpendicular to each other; @Ryan G recommends:
 > - Ensure fluid motion.
 ```
 
-### Test fit with toolhead plate
+### Test drive with toolhead plate!
 
 The Y spacer's height needs to be thicker than toolhead plate's height by an exact number.  Check the [XY Gantry section from K3 repo for more details.](https://github.com/Annex-Engineering/Gasherbrum-K3/tree/main/STLs/XY_Gantry#linear-rail-instructions).  Fortunately, my spacer is perfectly 13.5mm thicker than the toolhead plate.
 
-At this point I screw on the toolhead plate and tested if the gantry movement is fluid:
+At this point I want to test fit the toolhead and see if the gantry movement is fluid.  I screwed a few m3x8 on the toolhead and cross rail carriage, and:
 
 https://user-images.githubusercontent.com/13166286/173299416-cc5b920d-2def-4bd4-affe-35c217bb9624.mp4
 
