@@ -87,7 +87,9 @@ Common: 4x `M3 square nuts`, 4x `6x3 magnets`, 4x `M3x16 SHCS`
 <img src=https://user-images.githubusercontent.com/13166286/172331570-75e9eac2-57d8-4131-91d0-a5634d962b82.png width=300>
 </p>
 
-The gantry parts here is printed with 3DXTECH ezPCCF, thanks to Solar#9135.  Each stack is very easy to assemble:
+> The gantry parts here is printed with 3DXTECH ezPCCF, thanks to Solar#9135.  
+
+Each stack is very easy to assemble:
 
 1. For every cross-rail mount piece, pop in a m3 square nut and fit a 6x3 magnet.  This acts like a flat edge to push against the rail to ensure it's straight(prependicular) with the mount.
 
