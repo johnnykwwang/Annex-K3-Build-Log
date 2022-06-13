@@ -22,4 +22,4 @@ Looking at the K3,  I found that the design addressed most of the problems I hav
   * [Sourcing & Component Selection](1_Sourcing.md)
   * [Build Planning & Parts Preparation](2_Planning.md)
   * [Frame Assembly](3_Frame.md)
-  * ( To be continued! )
+  * [XY Gantry](4_XY_Gantry.md)
