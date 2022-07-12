@@ -23,3 +23,4 @@ Looking at the K3,  I found that the design addressed most of the problems I hav
   * [Build Planning & Parts Preparation](2_Planning.md)
   * [Frame Assembly](3_Frame.md)
   * [XY Gantry](4_XY_Gantry.md)
+  * [XY Motion](5_XY_Motion.md)
