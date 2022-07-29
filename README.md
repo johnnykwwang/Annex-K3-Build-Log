@@ -24,3 +24,4 @@ Looking at the K3,  I found that the design addressed most of the problems I hav
   * [Frame Assembly](3_Frame.md)
   * [XY Gantry](4_XY_Gantry.md)
   * [XY Motion](5_XY_Motion.md)
+  * [Z Drives](6_Z_Drives.md)
