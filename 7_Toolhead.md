@@ -34,5 +34,38 @@ Some additional notes:
 1. VC-3 all the screws!
 2. Make sure to clean up the filament path with a 2mm drill bit.
 
-### Mosquito net, fan mount & probe mount
-> To be continued
+### Mosquito net
+
+First, let's install the mosquito net.  I forgot to took picture when installing the mosquito net because I'm being very careful not to break the hotend :)  
+
+Basically, disassemble the mosquito hotend and take the heatsink.  You can follow [Slice's disassembly instruction](https://support.sliceengineering.com/portal/en/kb/articles/mosquito-assembly-and-disassembly-instructions-r2-2).
+
+Put the heatsink upside down and install the mosquito net with M2x4 flat screw.  Basically just like this image from the K3 github:
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/183238093-22e68332-962d-4504-bcdc-0f31b9ad387e.png width=300>
+</p>
+
+After that, carefully reassemble the hotend.
+
+### QD2 and QD2 probe mount
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/183238283-4185fe99-04f8-4fc6-995f-a9df98d9afb6.png  width=300>
+</p>
+
+Assembling the probe for QD2 is a lot more streamlined than QD1.  I followed [Papejelly's instruction](https://discord.com/channels/641407187004030997/751424723669221566/965624204827431022):
+
+- Place heatset insert on both "ear", and 1 on the side. 
+- Strip two wires, thread through the magnet hole and make a loop.
+- Press in the 6x6 magnet, make sure the wire are tucked nicely
+- "Clamp" the magnets with a M3x8
+
+<p align=center>
+<img src=https://user-images.githubusercontent.com/13166286/183238424-fe110e14-5dea-4c13-8f24-97bbc3104516.png  width=300>
+</p>
+
+### Putting it all together
+
+> WIP
+
